@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Roupas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      margin: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #4caf50;
+    }
+    .catalogo {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .produto {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 200px;
+      text-align: center;
+      padding: 10px;
+      transition: transform 0.2s;
+    }
+    .produto:hover {
+      transform: scale(1.05);
+    }
+    .produto img {
+      width: 100%;
+      height: auto;
+      border-bottom: 2px solid #4caf50;
+    }
+    .produto h2 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .produto p {
+      color: #777;
+      font-size: 16px;
+    }
+    .botao {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #4caf50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      transition: background 0.2s;
+    }
+    .botao:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Catálogo de Roupas</h1>
+
+<div class="catalogo">
+  <div class="produto">
+    <img src="vestido.jpg" alt="Nome do Produto" />
+    <h2>Vestido FARM</h2>
+    <p>R$ 79,90</p>
+    <a class="botao" href="https://wa.me/5599984602341?text=Olá,%20tenho%20interesse%20neste%20produto!" target="_blank">
+      Comprar no WhatsApp
+    </a>
+  </div>
+  <div class="produto">
+    <img src="vestido2.jpg" alt="Nome do Produto" />
+    <h2>Vestido FARM</h2>
+    <p>R$ 79,90</p>
+    <a class="botao" href="https://wa.me/5599984602341?text=Olá,%20tenho%20interesse%20neste%20produto!" target="_blank">
+      Comprar no WhatsApp
+    </a>
+  </div>
+  <div class="produto">
+    <img src="vestido3.jpg" alt="Nome do Produto" />
+    <h2>Vestido FARM</h2>
+    <p>R$ 79,90</p>
+    <a class="botao" href="https://wa.me/5599984602341?text=Olá,%20tenho%20interesse%20neste%20produto!" target="_blank">
+      Comprar no WhatsApp
+    </a>
+  </div>
+
+  <!-- Duplicar esse bloco para adicionar mais produtos -->
+  
+</div>
+
+</body>
+</html>
